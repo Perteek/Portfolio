@@ -40,9 +40,29 @@
     height: 101px;
   }
   #circle{
-    margin-right: -101px;
+    margin-right:-242px;
   }
 }
 
+@media screen and  (max-width: 500px)  {
+  .circle {
+    width: 101px;
+    height: 101px;
+    margin-right: -242px;
+  }
+  #img{
+    width: 28vw;
+  }
+}
 
+@media screen and  (max-width: 700px)  {
+  .circle {
+    width: 101px;
+    height: 101px;
+    margin-right: -242px;
+  }
+  #img{
+    width: 28vw;
+  }
+}
   
